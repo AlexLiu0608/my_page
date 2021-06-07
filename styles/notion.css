@@ -177,6 +177,7 @@
 }
 
 .notion-page-cover {
+  margin-top: 4px;
   max-width: 1200px;
   border-radius: 6px;
   box-shadow: 2px 2px 6px 4px rgba(15, 15, 15, 0.1);
