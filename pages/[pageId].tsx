@@ -2,7 +2,7 @@ import React from 'react'
 import { isDev, domain } from 'lib/config'
 import { getSiteMaps } from 'lib/get-site-maps'
 import { resolveNotionPage } from 'lib/resolve-notion-page'
-import { NotionPage } from 'components'
+import { NotionPage } from 'components' //This is Notion Page
 
 export const getStaticProps = async (context) => {
   const rawPageId = context.params.pageId as string
